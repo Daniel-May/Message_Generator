@@ -1,1 +1,21 @@
 /** STYLESHEET FOR INDEX.HTML **/
+
+body {
+    margin: 0 auto;
+}
+
+#content_wrapper {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message {
+    border: 2px solid red;
+    padding: 50px;
+
+}
+
+#generate_button {
+    margin-top: 20px;
+}
