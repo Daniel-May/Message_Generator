@@ -9,4 +9,6 @@ const message = [
     'We\'re the guardians of the galaxy bitch!'
 ]
 
-
+function randomNumberGen() {
+    Math.floor(Math.random() * 6);
+}
