@@ -10,5 +10,7 @@ const message = [
 ]
 
 function randomNumberGen() {
-    Math.floor(Math.random() * 6);
+    var number = Math.floor(Math.random() * 7);
+    return number;
+
 }
