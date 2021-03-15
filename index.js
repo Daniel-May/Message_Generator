@@ -7,10 +7,15 @@ const message = [
     'Bring me THANOS!',
     'Wakanda Forever!',
     'We\'re the guardians of the galaxy bitch!'
-]
+];
 
 function randomNumberGen() {
     var number = Math.floor(Math.random() * 7);
     return number;
 
+};
+
+function messageGenerator() {
+    var randomMessage = message[randomNumberGen()];
+    console.log(randomMessage);
 }
