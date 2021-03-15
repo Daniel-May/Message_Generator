@@ -9,13 +9,20 @@ const message = [
     'We\'re the guardians of the galaxy bitch!'
 ];
 
+
+document.getElementById('generate_button').onclick = function() {
+    messageGenerator();
+}
+
+
 function randomNumberGen() {
-    var number = Math.floor(Math.random() * 7);
+    var number = Math.floor(Math.random() * 6);
     return number;
 
 };
 
 function messageGenerator() {
     var randomMessage = message[randomNumberGen()];
-    console.log(randomMessage);
+    document.getElementById('message').innerHTML = randomMessage;
 }
+
