@@ -25,29 +25,31 @@ function messageGenerator() {
     var randomMessage = message[randomNumberGen()];
     document.getElementById('message').innerHTML = randomMessage;
 
+    var superHero = document.getElementById('super');
+
     switch (randomMessage) {
         case 'I can do this all day!':
-            console.log('Rogers');
+            superHero.src = 'images/rogers.jpg';
             break;
 
         case 'I am Iron Man!':
-            console.log('Stark');
+            superHero.src = 'images/stark.jpg';
             break;
 
         case 'On your left.':
-            console.log('Rogers');
+            superHero.src = 'images/rogers.jpg';
             break;
 
         case 'Bring me THANOS!':
-            console.log('Thor');
+            superHero.src = 'images/thor.jpg'
             break;
         
         case 'Wakanda Forever!':
-            console.log('Black Panther');
+            superHero.src = 'images/panther.jpg';
             break;
 
         case 'We\'re the guardians of the galaxy bitch!':
-            console.log('Guardians');
+            superHero.src = 'images/guardians.jpg';
             break;
 
         default: console.log('Marvel');
