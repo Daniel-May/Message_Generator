@@ -49,7 +49,7 @@ function messageGenerator() {
             superHero.src = 'images/panther.jpg';
             break;
 
-        case 'We\'re the guardians of the galaxy bitch!':
+        case 'We\'re the guardians of the galaxy!':
             superHero.src = 'images/guardians.jpg';
             break;
 
@@ -58,4 +58,6 @@ function messageGenerator() {
 
  
 };
+
+$('h1').fadeIn(20000);
 

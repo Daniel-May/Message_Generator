@@ -12,6 +12,7 @@ body {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid black;
 }
 
 h1 {
@@ -20,7 +21,6 @@ h1 {
 }
 
 #message {
-    border: 2px solid red;
     padding: 50px;
     font-family: 'Bangers', cursive;
     font-size: 50px;
