@@ -6,31 +6,45 @@
 
 body {
     margin: 0 auto;
+    background-color: #330600;
 }
 
 #content_wrapper {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid white;
+    background-color: #C02F1D;
+    margin-top: 20px;
 }
 
 h1 {
     font-family: 'Monofett', cursive;
     font-size: 60px;
+    background-color: white;
+ 
 }
 
 #message {
     padding: 50px;
     font-family: 'Bangers', cursive;
     font-size: 50px;
+    color: white;
 
 }
 
 #generate_button {
     margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 5%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #FF7A68;
 }
 
 #hero {
     margin-top: 20px;
+    margin-bottom: 20px;
 }

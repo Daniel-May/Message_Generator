@@ -6,7 +6,7 @@ const message = [
     'On your left.',
     'Bring me THANOS!',
     'Wakanda Forever!',
-    'We\'re the guardians of the galaxy bitch!'
+    'We\'re the guardians of the galaxy!'
 ];
 
 
