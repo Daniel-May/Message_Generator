@@ -59,5 +59,5 @@ function messageGenerator() {
  
 };
 
-$('h1').fadeIn(20000);
+
 
