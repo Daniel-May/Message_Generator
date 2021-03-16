@@ -1,5 +1,9 @@
 /** STYLESHEET FOR INDEX.HTML **/
 
+/** GOOGLE FONTS **/
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
     margin: 0 auto;
 }
@@ -10,9 +14,16 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Monofett', cursive;
+    font-size: 60px;
+}
+
 #message {
     border: 2px solid red;
     padding: 50px;
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
 
 }
 
